@@ -6,6 +6,7 @@ import os
 
 #FUNCION QUE SUMA DOS VALORES
 def sumar(valor1=0,valor2=0):
+	print "El resultado de su suma es: " + str(resultadoSuma)
 	return valor1 + valor2 
 #FUNCION QUE SUMA DOS VALORES
 
@@ -65,7 +66,7 @@ if(opc == 1):
 	valor1 = valoresTeclado[0]
 	valor2 = valoresTeclado[1]
 	resultadoSuma = sumar(valor1, valor2)
-	print "El resultado de su suma es: " + str(resultadoSuma)
+	
 	#print "Quiere realizar otra operanción?.."
 	nuevaOperacion = errorOperacion()
 	#regresar = raw_input("¿Quiere realizar una nueva operanción [Si/No]? ")
